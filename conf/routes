@@ -1,0 +1,11 @@
+
++ nocsrf
+POST     /api/product/add                  com.brevitaz.controllers.ProductController.addProduct
+GET      /api/products                     com.brevitaz.controllers.ProductController.getAllProduct
+GET      /api/product/id/:id               com.brevitaz.controllers.ProductController.getPersonById(id:Long)
+
+GET      /api/swagger.json                 controllers.ApiHelpController.getResources
+GET      /api/swagger-ui/*file             controllers.Assets.at(path:String="/public/lib/swagger-ui", file:String)
+
+
+
